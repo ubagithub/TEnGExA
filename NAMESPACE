@@ -1,0 +1,6 @@
+
+export(TEnGExA)
+
+S3method(TEnGExA, default)
+
+importFrom("utils", "write.csv")
