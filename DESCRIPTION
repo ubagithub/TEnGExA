@@ -1,9 +1,15 @@
 Package: TEnGExA
 Type: Package
 Title: Tissue-Enrichment Analysis of any Number of Genes and Tissues
-Version: 1.0
+Authors@R: c( person("Ulavappa", "Angadi", email = "ub.angadi@icar.gov.in", role ="aut"), 
+    person("Rahul", "Hukum", email = "hukam.rawal@gmail.com", role = "aut"),
+    person("Tapan Kumar", "Mondal", email = "mondaltk@yahoo.com", role = "ctb"))
+Version: 0.50
 Date: 2020-06-06
-Author: Angadi U B, Hukum C Rawal, T. K. Mondal.
 Description: Tissue-enrichment analysis of any large number of genes with any number of tissues, irrespective of any organism provided only the read count matrix.
 License: GPL-3
 Imports: utils
+URL: http://github.com/ubagithub/TEnGExA
+TEnGExA 
+Encoding: UTF-8
+LazyData: TRUE
