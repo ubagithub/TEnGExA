@@ -10,13 +10,6 @@
 
 \packageDescription{TEnGExA}
 
-Jain, A. and Tuteja, G. (2019) <doi:10.1093/bioinformatics/bty890>
-
-Pei G., Dai Y., Zhao Z. and Jia P.(2019) <doi:10.1093/bioinformatics/btz138>
-
-David Angeles-Albores, Raymond Y. N. Lee, Juancarlos Chan  and Paul W. Sternberg (2016) <doi:10.1186/s12859-016-1229-9>
-
-Uhlen, M. et al. (2015) <odi:10.1126/science.1260419>
 }
 \details{
 
