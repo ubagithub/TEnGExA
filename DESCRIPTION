@@ -10,6 +10,5 @@ Description: Tissue-enrichment analysis of any large number of genes with any nu
 License: GPL-3
 Imports: utils
 URL: https://github.com/ubagithub/TEnGExA
-TEnGExA 
 Encoding: UTF-8
 LazyData: TRUE
