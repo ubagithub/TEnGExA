@@ -4,7 +4,6 @@ Title: Tissue-Enrichment Analysis of any Number of Genes and Tissues
 Version: 1.0
 Date: 2020-06-06
 Author: Angadi U B, Hukum C Rawal, T. K. Mondal.
-Maintainer:Angadi UB<angadiub@gmail.com>
 Description: Tissue-enrichment analysis of any large number of genes with any number of tissues, irrespective of any organism provided only the read count matrix.
 License: GPL-3
 Imports: utils
