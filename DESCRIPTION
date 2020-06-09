@@ -1,9 +1,7 @@
 Package: TEnGExA
 Type: Package
 Title: Tissue-Enrichment Analysis of any Number of Genes and Tissues
-Authors@R: c( person("Ulavappa", "Angadi", email = "ub.angadi@icar.gov.in", role ="aut"), 
-    person("Rahul", "Hukum", email = "hukam.rawal@gmail.com", role = "aut"),
-    person("Tapan Kumar", "Mondal", email = "mondaltk@yahoo.com", role = "ctb"))
+Authors@R: person("Ulavappa", "Angadi", email = "ub.angadi@icar.gov.in", role = c("aut", "cre"))
 Version: 0.50
 Date: 2020-06-06
 Description: Tissue-enrichment analysis of any large number of genes with any number of tissues, irrespective of any organism provided only the read count matrix.
