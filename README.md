@@ -57,7 +57,7 @@ The output results are in matrix form with deatils in last column
 
 Angadi U B, Hukum C Rawal, T. K. Mondal.
 
-Maintainer: Angadi UB<angadiub@gmail.com>
+Maintainer: Angadi UB : <ub.angadi@icar.gov.in>
 
 ####### References #######
 
@@ -70,9 +70,13 @@ Tissue Enrich, Tissue Enhance, Gene, Tissue
 ###### Examples  ########
 
 datafile= paste(path.package("TEnGExA"),"/exdata/sample-fpkm-matrix-1.csv",sep="")
+
 data1 = read.csv(datafile, header = TRUE)
+
 result=TEnGExA(data1, fpkm_flag=1, threshold=5, tissue_num= 4, min_fpkm= 1)
+
 write.csv(result, "output1.csv")
+
 
 
 
