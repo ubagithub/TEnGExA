@@ -64,13 +64,6 @@ Maintainer: \packageMaintainer{TEnGExA}
 }
 \references{
 
-Jain, A. and Tuteja, G. (2019) TissueEnrich: Tissue-specific gene enrichment analysis. Bioinformatics, 35(11):1966-1967. doi: 10.1093/bioinformatics/bty890.
-
-Pei G., Dai Y., Zhao Z. and Jia P.(2019) deTS: Tissue-Specific Enrichment Analysis to decode tissue specificity. Bioinformatics, 35 : 3842-3845. doi: 10.1093/bioinformatics/btz138.
-
-David Angeles-Albores, Raymond Y. N. Lee, Juancarlos Chan  and Paul W. Sternberg (2016) Tissue enrichment analysis for C. elegans genomics. BMC Bioinformatics 17: 366. doi:10.1186/s12859-016-1229-9
-
-Uhlen, M. et al. (2015) Tissue-based map of the human proteome. Science, 347: 1260419-1260419.
 
  KEYWORDS
  
