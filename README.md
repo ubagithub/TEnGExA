@@ -10,6 +10,8 @@ While working on transcripts such as CDS, alternative splicing, circular RNAs or
 #######Required software and packages######
 
  R (http://www.r-project.org/)
+ 
+ R > 3.6.3
 
 ########Installation #######
 
