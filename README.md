@@ -52,18 +52,22 @@ min_fpkm= 1
 ######### Output ########
 
 The output results are in matrix form with deatils in last column
-Author(s)
+
+####### Author(s) #########
 
 Angadi U B, Hukum C Rawal, T. K. Mondal.
 
 Maintainer: Angadi UB<angadiub@gmail.com>
-References
 
-KEYWORDS
+####### References #######
+
+
+####### KEYWORDS #######
 
 Tissue Enrich, Tissue Enhance, Gene, Tissue
 
-Examples
+
+###### Examples  ########
 
 datafile= paste(path.package("TEnGExA"),"/exdata/sample-fpkm-matrix-1.csv",sep="")
 data1 = read.csv(datafile, header = TRUE)
