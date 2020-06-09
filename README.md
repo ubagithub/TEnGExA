@@ -16,8 +16,11 @@ While working on transcripts such as CDS, alternative splicing, circular RNAs or
 ########Installation #######
 
 install.packages("devtools")
+
 library(devtools)
+
 install_github("ubagithub/TEnGExA")
+
 
 Command
 
