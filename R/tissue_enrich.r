@@ -204,7 +204,7 @@ if (fpkm_flag==0)
 else
 {finalTable=fpkm[, c(1:c1,c1+2*(t1-1)+3,c1+2*(t1-1)+4)]} 
 
-write.csv(finalTable,finalfile)
+# write.csv(finalTable,finalfile)
 
 # write.csv(finalTable,paste("Final_",finalfile, sep = ""))
 
