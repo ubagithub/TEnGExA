@@ -137,7 +137,7 @@ for (i in 1:r1)
    
    
    
-   if (fpkm[i,c1+(2*j-1)]>threshold & maxfpkm[j]>min_fpkm)
+   if (fpkm[i,c1+(2*j-1)]>=threshold & maxfpkm[j]>=min_fpkm)
    {
      fpkm[i,c1+2*j]=colnames(maxfpkm)[j]
      if (j<=1)
@@ -164,18 +164,18 @@ for (i in 1:r1)
   
   fpkm[i,c1+2*(t1-1)+2]=colnames(maxfpkm)[1]
   
-  if (fpkm[i,c1+2*(t1-1)+1]>threshold  & flageg==0 & maxfpkm[1]>min_fpkm )
+  if (fpkm[i,c1+2*(t1-1)+1]>=threshold  & flageg==0 & maxfpkm[1]>=min_fpkm )
    { egstr<-paste("Tissue-Enhanced:" ,colnames(maxfpkm)[1])
     flageg=1}
 
 
-  	 if (flageg==0 & maxfpkm[1]>min_fpkm  & maxfpkm[c2+1]<min_fpkm)
+  	 if (flageg==0 & maxfpkm[1]>=min_fpkm  & maxfpkm[c2+1]<min_fpkm)
   	 { egstr<-paste("Mixed")
   	   flageg=1
     #	 cat ( "I=", i, "nchar=", nchar(egstr))
   	 }
  
-  if (flageg==0 & maxfpkm[c2+1]>min_fpkm)
+  if (flageg==0 & maxfpkm[c2+1]>=min_fpkm)
   { egstr<-paste("Expressed in all")
     flageg=1
   }
@@ -185,7 +185,7 @@ for (i in 1:r1)
       
   fpkm[i,c1+2*(t1-1)+3]=egstr
   
-  if (maxfpkm[2]==0 & maxfpkm[1]>threshold)
+  if (maxfpkm[2]==0 & maxfpkm[1]>=threshold)
     fpkm[i,c1+2*(t1-1)+4]="Tissue specific"
   else
     fpkm[i,c1+2*(t1-1)+4]="NA"
